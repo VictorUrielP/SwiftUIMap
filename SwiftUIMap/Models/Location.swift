@@ -15,6 +15,10 @@ struct Location {
     let description: String
     let imageNames: [String]
     let link: String
+    
+    var url: URL? {
+        URL(string: link)
+    }
 }
 
 extension Location: Identifiable {

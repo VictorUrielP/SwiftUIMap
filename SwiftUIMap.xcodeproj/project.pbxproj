@@ -18,6 +18,7 @@
 		D1B644412B81E5540003FF48 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644402B81E5540003FF48 /* LocationsListView.swift */; };
 		D1B644432B81EC300003FF48 /* LocationsPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644422B81EC300003FF48 /* LocationsPreviewView.swift */; };
 		D1B644452B81F7850003FF48 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644442B81F7850003FF48 /* LocationMapAnnotationView.swift */; };
+		D1B644472B81FB950003FF48 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644462B81FB950003FF48 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D1B644402B81E5540003FF48 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		D1B644422B81EC300003FF48 /* LocationsPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPreviewView.swift; sourceTree = "<group>"; };
 		D1B644442B81F7850003FF48 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		D1B644462B81FB950003FF48 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				D1B644402B81E5540003FF48 /* LocationsListView.swift */,
 				D1B644422B81EC300003FF48 /* LocationsPreviewView.swift */,
 				D1B644442B81F7850003FF48 /* LocationMapAnnotationView.swift */,
+				D1B644462B81FB950003FF48 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				D1B6443D2B81DCD60003FF48 /* LocationsView.swift in Sources */,
 				D1B644382B81DB980003FF48 /* Location.swift in Sources */,
 				D1B644432B81EC300003FF48 /* LocationsPreviewView.swift in Sources */,
+				D1B644472B81FB950003FF48 /* LocationDetailView.swift in Sources */,
 				D1B644252B81D7A10003FF48 /* SwiftUIMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

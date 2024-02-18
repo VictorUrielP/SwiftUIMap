@@ -23,6 +23,8 @@ final class LocationsViewModel: ObservableObject {
     
     @Published var showLocationsList: Bool = false
     
+    @Published var sheetLocation: Location?
+    
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
     init() {
@@ -42,6 +44,12 @@ final class LocationsViewModel: ObservableObject {
     func toggleLocationsList() {
         withAnimation(.easeInOut) {
             showLocationsList.toggle()
+        }
+    }
+    
+    func setSheet(location: Location?) {
+        withAnimation(.easeInOut) {
+            sheetLocation = location
         }
     }
     

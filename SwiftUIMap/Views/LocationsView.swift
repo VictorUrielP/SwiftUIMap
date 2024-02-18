@@ -15,6 +15,7 @@ struct LocationsView: View {
     var body: some View {
         ZStack {
             mapLayer
+                .ignoresSafeArea()
             
             VStack(spacing: 0) {
                 header.padding()
@@ -23,6 +24,9 @@ struct LocationsView: View {
                 
                 locationsPreviewStack
             }
+        }
+        .sheet(item: $locationsViewModel.sheetLocation, onDismiss: nil) { location in
+            LocationDetailView(location: location)
         }
     }
 }
@@ -79,7 +83,6 @@ extension LocationsView {
                     }
             })
         })
-        .ignoresSafeArea()
     }
     
     private var locationsPreviewStack: some View {
