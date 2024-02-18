@@ -8,7 +8,7 @@
 import SwiftUI
 import MapKit
 
-struct LocationView: View {
+struct LocationsView: View {
     
     @EnvironmentObject private var locationsViewModel: LocationsViewModel
     
@@ -28,12 +28,12 @@ struct LocationView: View {
 
 struct LocationView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationView()
+        LocationsView()
             .environmentObject(LocationsViewModel())
     }
 }
 
-extension LocationView {
+extension LocationsView {
     
     private var header: some View {
         VStack {
