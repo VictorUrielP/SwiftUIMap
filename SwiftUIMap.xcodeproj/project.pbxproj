@@ -17,6 +17,7 @@
 		D1B6443F2B81DF7C0003FF48 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B6443E2B81DF7B0003FF48 /* LocationsViewModel.swift */; };
 		D1B644412B81E5540003FF48 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644402B81E5540003FF48 /* LocationsListView.swift */; };
 		D1B644432B81EC300003FF48 /* LocationsPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644422B81EC300003FF48 /* LocationsPreviewView.swift */; };
+		D1B644452B81F7850003FF48 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B644442B81F7850003FF48 /* LocationMapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D1B6443E2B81DF7B0003FF48 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		D1B644402B81E5540003FF48 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		D1B644422B81EC300003FF48 /* LocationsPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsPreviewView.swift; sourceTree = "<group>"; };
+		D1B644442B81F7850003FF48 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				D1B6443C2B81DCD60003FF48 /* LocationsView.swift */,
 				D1B644402B81E5540003FF48 /* LocationsListView.swift */,
 				D1B644422B81EC300003FF48 /* LocationsPreviewView.swift */,
+				D1B644442B81F7850003FF48 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1B6443B2B81DC530003FF48 /* LocationsDataService.swift in Sources */,
+				D1B644452B81F7850003FF48 /* LocationMapAnnotationView.swift in Sources */,
 				D1B644412B81E5540003FF48 /* LocationsListView.swift in Sources */,
 				D1B6443F2B81DF7C0003FF48 /* LocationsViewModel.swift in Sources */,
 				D1B644272B81D7A10003FF48 /* ContentView.swift in Sources */,
