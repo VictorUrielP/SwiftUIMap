@@ -18,9 +18,9 @@
 
 Practice SwiftUI features Xcode 14.3.1 creating custom views for iPhone and iPad, using MVVM and MapKit.
 
-https://github.com/VictorUrielP/SwiftUIMap/assets/29692881/fcce7078-f03a-45d0-9215-2caae375f0ff
-
-https://github.com/VictorUrielP/SwiftUIMap/assets/29692881/efd0e903-fd2b-4ffb-a430-5414e06766d5
+| iPhone  | iPad |
+| ------------- | ------------- |
+| <video src="https://github.com/VictorUrielP/SwiftUIMap/assets/29692881/fcce7078-f03a-45d0-9215-2caae375f0ff">  | <video src="https://github.com/VictorUrielP/SwiftUIMap/assets/29692881/efd0e903-fd2b-4ffb-a430-5414e06766d5">|
 
 ### Built With
 
